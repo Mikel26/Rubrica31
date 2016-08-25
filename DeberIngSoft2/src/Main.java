@@ -15,6 +15,20 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
+        
+        String nombre = " Mikel Armando";
+        String apellido = "Ortega Ortiz";
+        int edad = 22;
+        String cedula = "131084319-6";
+        String curso = "5B";
+        String obj = "Realizó su tarea de IngSoft 2";
+        
+        System.out.println("El estudiante: "+ apellido+nombre);
+        System.out.println("De edad: "+edad);
+        System.out.println("Con CI#: "+cedula);
+        System.out.println("Del curso: "+curso);
+        System.out.println(obj);
+        
     }
     
     public void onclick(){
@@ -32,6 +46,5 @@ public class Main {
         } else {
             System.out.println("Los datos fueron alterados!!");
         }
-    }
-    
+    }   
 }

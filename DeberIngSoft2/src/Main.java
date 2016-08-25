@@ -17,4 +17,8 @@ public class Main {
         System.out.println("Hola Mundo");
     }
     
+    public void onclick(){
+        System.out.println("Commit #2");
+    }
+    
 }

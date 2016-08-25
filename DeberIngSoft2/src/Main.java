@@ -21,4 +21,8 @@ public class Main {
         System.out.println("Commit #2");
     }
     
+    public void onCheck(){
+        System.out.println("Commit #3");
+    }
+    
 }

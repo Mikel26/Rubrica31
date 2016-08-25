@@ -25,4 +25,13 @@ public class Main {
         System.out.println("Commit #3");
     }
     
+    public void datos(){
+        int datos = 0;
+        if (datos == 0) {
+            System.out.println("Los datos no han sido alterados");
+        } else {
+            System.out.println("Los datos fueron alterados!!");
+        }
+    }
+    
 }
